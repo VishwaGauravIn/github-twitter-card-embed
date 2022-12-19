@@ -50,7 +50,8 @@ export default async function getStaticProps(req, res) {
               response.data.data[0].public_metrics.reply_count,
               response.data.data[0].public_metrics.retweet_count,
               req.query.theme,
-              req.query.response
+              req.query.response,
+              req.query.border
             )
           );
         });

@@ -10,7 +10,8 @@ export function Card(
   comments,
   retweets,
   theme = "dracula",
-  response = "true"
+  response = "true",
+  border = "true"
 ) {
   // setting random counts
   // likes = Math.floor(Math.random() * (100000 - 100 + 1)) + 100;
@@ -48,7 +49,7 @@ export function Card(
   font-family: "Open Sans", sans-serif;
   color: #${themes[theme].text_color};
   border-color: #E4E2E2;
-  border-width: 0.5px;
+  border-width: ${border === "true" ? "0.5px" : "0px"};
   border-style: solid;
 }
 .card-header {
