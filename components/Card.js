@@ -6,12 +6,15 @@ export function Card(
   username,
   name,
   text,
+  localDate,
+  localTime,
   likes,
   comments,
   retweets,
   theme = "dracula",
   response = "true",
-  border = "true"
+  border = "true",
+  time = "true"
 ) {
   // setting random counts
   // likes = Math.floor(Math.random() * (100000 - 100 + 1)) + 100;
@@ -29,6 +32,10 @@ export function Card(
     // if multiple line then we divide the charcount/length to get the number of lines used to calculate the height
     if (tl > 59) {
       height = 109 + (tl / 60).toFixed(1) * 36;
+    }
+    // if date and Time is visible
+    if (time === "true") {
+      height += 36;
     }
   }
   return `
@@ -120,6 +127,11 @@ export function Card(
     margin-bottom: 0;
     fill: #${themes[theme].icon_color};
 }
+.time{
+  display: flex;
+  padding-left: 24px;
+  opacity: 0.7;
+}
   </style>
   <div class="card">
       <div class="card-header">
@@ -141,6 +153,17 @@ export function Card(
       <p class="card-body">
       ${text}
       </p>
+      ${
+        time === "true" &&
+        `
+        <p class="time">
+        ${localDate}
+        · 
+        ${localTime}
+           · gtce.itsvg.in
+        </p>
+      `
+      }
       <div class="response">
         <p class="response-type">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" class="response-icon">

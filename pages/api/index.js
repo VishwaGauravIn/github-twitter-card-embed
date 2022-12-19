@@ -39,6 +39,7 @@ export default async function getStaticProps(req, res) {
           ],
         })
         .then((response) => {
+          const date = new Date(response.data.data[0].created_at);
           res.setHeader("Cache-Control", `no-cache`);
           res.setHeader("Content-Type", "image/svg+xml");
           res.send(
@@ -46,12 +47,22 @@ export default async function getStaticProps(req, res) {
               r.data.data[0].username,
               r.data.data[0].name,
               response.data.data[0].text,
+              date.toLocaleTimeString([], {
+                hour: "numeric",
+                minute: "numeric",
+              }),
+              date.toLocaleDateString([], {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              }),
               response.data.data[0].public_metrics.like_count,
               response.data.data[0].public_metrics.reply_count,
               response.data.data[0].public_metrics.retweet_count,
               req.query.theme,
               req.query.response,
-              req.query.border
+              req.query.border,
+              req.query.time
             )
           );
         });
