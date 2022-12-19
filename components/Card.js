@@ -2,7 +2,16 @@ import React from "react";
 import themes from "../themes/themes";
 const { format } = require("number-prettier");
 
-export function Card(username, name, text, likes, comments, retweets, theme = "dracula") {
+export function Card(
+  username,
+  name,
+  text,
+  likes,
+  comments,
+  retweets,
+  theme = "dracula",
+  response = "true"
+) {
   // setting random counts
   // likes = Math.floor(Math.random() * (100000 - 100 + 1)) + 100;
   // retweets = Math.floor(Math.random() * (likes - 30 + 1)) + 30;
@@ -92,7 +101,7 @@ export function Card(username, name, text, likes, comments, retweets, theme = "d
     color: #${themes[theme].icon_color};
     margin-left: 24px;
     column-gap: 25px;
-    display: flex;
+    display: ${response === "true" ? "flex" : "none"};
     opacity: 0.8;
     margin-top: 0;
     margin-bottom: 0;
