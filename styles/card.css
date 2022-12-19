@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+.card {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 74%
+  );
+  border-radius: 10px;
+  border: 2px rgb(207, 207, 207) solid;
+  padding: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #14171A;
+}
+.card-header {
+  display: flex;
+  position: relative;
+}
+.user-info {
+  margin-left: 8px;
+}
+.user-image {
+  width: 60px;
+  border-radius: 9999px;
+}
+.user {
+  font-size: 22px;
+  font-weight: 500;
+}
+.username {
+  font-size: 16px;
+  margin-left: 2px;
+  color: #536471;
+}
+.twitter-icon {
+  position: absolute;
+  right: 4px;
+  top: 10px;
+  width: 36px;
+  fill: #1da1f2;
+}
+.card-body {
+    max-width: 100%;
+    white-space: pre-wrap;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.response{
+    fill: #536471;
+    color: #536471;
+    margin-left: 10px;
+    margin-right: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.response-type{
+    display: flex;
+}
+.response-icon{
+    width: 24px;
+    margin-right: 4px;
+}
