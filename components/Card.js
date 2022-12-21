@@ -1,4 +1,3 @@
-import React from "react";
 import themes from "../themes/themes";
 const { format } = require("number-prettier");
 
@@ -14,7 +13,8 @@ export function Card(
   theme = "dracula",
   response = "true",
   border = "true",
-  time = "true"
+  time = "true",
+  d = "M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z"
 ) {
   // setting random counts
   // likes = Math.floor(Math.random() * (100000 - 100 + 1)) + 100;
@@ -77,10 +77,7 @@ export function Card(
 .user-image {
   width: 40x;
   height: 40px;
-  border-radius: 9999px;
-  border-style: solid;
-  border-width: 2px;
-  color: #${themes[theme].title_color}
+  color: #${themes[theme].title_color};
 }
 .user {
   font-size: 22px;
@@ -144,8 +141,8 @@ export function Card(
   </style>
   <div class="card">
       <div class="card-header">
-      <svg xmlns="http://www.w3.org/2000/svg" class="user-image" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      <svg xmlns="http://www.w3.org/2000/svg" class="user-image" viewBox="0 0 24 24" fill="currentColor">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="${d}" />
       </svg>
         <div class="user-info">
           <p class="user">${name}</p>
