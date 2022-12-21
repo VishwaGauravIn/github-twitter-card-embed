@@ -41,6 +41,10 @@ export function Card(
     if (response === "true") {
       height += 20;
     }
+    // if response is visible
+    if (border === "true") {
+      height += 2;
+    }
   }
   return `
   <svg
