@@ -22,20 +22,24 @@ export function Card(
   // comments = Math.floor(Math.random() * (retweets - 50 + 1)) + 100;
 
   // setting initial height to 108 px
-  let height = 109;
+  let height = 88;
   if (text !== undefined) {
     let tl = text.length;
     // if only one line exist then we add 36px to height
     if (tl < 60) {
-      height = 109 + 36;
+      height = 109 + 26;
     }
     // if multiple line then we divide the charcount/length to get the number of lines used to calculate the height
     if (tl > 59) {
-      height = 109 + (tl / 60).toFixed(1) * 36;
+      height = 109 + (tl / 60).toFixed(1) * 26;
     }
     // if date and Time is visible
     if (time === "true") {
-      height += 36;
+      height += 38;
+    }
+    // if response is visible
+    if (response === "true") {
+      height += 20;
     }
   }
   return `
@@ -43,9 +47,9 @@ export function Card(
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     width="550px"
-    height="${height + 36}px"
+    height="${height}px"
   >
-  <foreignObject width="550px" height="${height + 36}px">
+  <foreignObject width="550px" height="${height}px">
   <div xmlns="http://www.w3.org/1999/xhtml">
   <style>
 .card {
@@ -131,6 +135,7 @@ export function Card(
   display: flex;
   padding-left: 24px;
   opacity: 0.7;
+  display: ${time === "true" ? "flex" : "none"};
 }
   </style>
   <div class="card">
@@ -153,17 +158,14 @@ export function Card(
       <p class="card-body">
       ${text}
       </p>
-      ${
-        time === "true" &&
-        `
+      ${`
         <p class="time">
         ${localDate}
         · 
         ${localTime}
            · gtce.itsvg.in
         </p>
-      `
-      }
+      `}
       <div class="response">
         <p class="response-type">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" class="response-icon">
