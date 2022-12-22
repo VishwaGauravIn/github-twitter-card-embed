@@ -125,10 +125,13 @@ export function Card(
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 16px;
+    margin-right: 10px;
 }
 .response-icon{
     width: 24px;
-    margin-right: 4px;
+    height: 24px;
+    margin-right: 5px;
     margin-top: -4px;
     margin-bottom: 0;
     fill: #${themes[theme].icon_color};
