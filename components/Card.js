@@ -27,11 +27,11 @@ export function Card(
     let tl = text.length;
     // if only one line exist then we add 36px to height
     if (tl < 60) {
-      height = 109 + 26;
+      height = 109 + 28;
     }
     // if multiple line then we divide the charcount/length to get the number of lines used to calculate the height
     if (tl > 59) {
-      height = 109 + (tl / 60).toFixed(1) * 26;
+      height = 109 + (tl / 60).toFixed(1) * 28;
     }
     // if date and Time is visible
     if (time === "true") {
