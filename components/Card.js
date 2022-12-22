@@ -14,7 +14,7 @@ export function Card(
   response = "true",
   border = "true",
   time = "true",
-  d = "M14.615 1.595a.75.75 0 01.359.852L12.982 9.75h7.268a.75.75 0 01.548 1.262l-10.5 11.25a.75.75 0 01-1.272-.71l1.992-7.302H3.75a.75.75 0 01-.548-1.262l10.5-11.25a.75.75 0 01.913-.143z"
+  d = "M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
 ) {
   // setting random counts
   // likes = Math.floor(Math.random() * (100000 - 100 + 1)) + 100;
@@ -73,25 +73,26 @@ export function Card(
 }
 .user-info {
   margin-left: 8px;
+  place-self: center;
 }
 .user-image {
-  width: 40x;
-  height: 40px;
+  width: 48x;
+  height: 48px;
   color: #${themes[theme].title_color};
 }
 .user {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;
-  color: #${themes[theme].title_color};
+  color: #${themes[theme].icon_color};
 }
 .username {
-  font-size: 16px;
-  margin-left: 2px;
-  color: #${themes[theme].icon_color};
+  font-size: 14px;
+  color: #${themes[theme].title_color};
   margin-top: 0;
   margin-bottom: 0;
+  opacity: 0.9;
 }
 .twitter-icon {
   position: absolute;
