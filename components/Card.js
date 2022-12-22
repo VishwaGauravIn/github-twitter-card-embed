@@ -1,5 +1,6 @@
 import themes from "../themes/themes";
 const { format } = require("number-prettier");
+import { icons } from "../icons/index";
 
 export function Card(
   username,
@@ -14,12 +15,29 @@ export function Card(
   response = "true",
   border = "true",
   time = "true",
-  d = "M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+  icon = "default"
 ) {
   // setting random counts
   // likes = Math.floor(Math.random() * (100000 - 100 + 1)) + 100;
   // retweets = Math.floor(Math.random() * (likes - 30 + 1)) + 30;
   // comments = Math.floor(Math.random() * (retweets - 50 + 1)) + 100;
+
+  // Check if the theme exists
+  try {
+    themes[theme].bg_color;
+  } catch (error) {
+    theme = "dracula";
+  }
+
+  // Check if the icon exists
+  try {
+    icons[icon];
+    if (icons[icon] === undefined) {
+      icon = "default";
+    }
+  } catch (error) {
+    icon = "default";
+  }
 
   // setting initial height to 108 px
   let height = 88;
@@ -146,7 +164,7 @@ export function Card(
   <div class="card">
       <div class="card-header">
       <svg xmlns="http://www.w3.org/2000/svg" class="user-image" viewBox="0 0 24 24" fill="currentColor">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="${d}" />
+        <path fill-rule="evenodd" clip-rule="evenodd" d="${icons[icon]}" />
       </svg>
         <div class="user-info">
           <p class="user">${name}</p>
