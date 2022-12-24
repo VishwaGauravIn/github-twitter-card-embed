@@ -40,7 +40,7 @@ export function Card(
   }
 
   // setting initial height to 108 px
-  let height = 88;
+  let height = 98;
   if (text !== undefined) {
     let tl = text.length;
     // if only one line exist then we add 36px to height
@@ -53,7 +53,7 @@ export function Card(
     }
     // if date and Time is visible
     if (time === "true") {
-      height += 40;
+      height += 38;
     }
     // if response is visible
     if (response === "true") {
