@@ -53,7 +53,7 @@ export function Card(
     }
     // if date and Time is visible
     if (time === "true") {
-      height += 38;
+      height += 40;
     }
     // if response is visible
     if (response === "true") {
