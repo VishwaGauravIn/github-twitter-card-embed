@@ -60,11 +60,11 @@ export default async function getStaticProps(req, res) {
               response.data.data[0].public_metrics.like_count,
               response.data.data[0].public_metrics.reply_count,
               response.data.data[0].public_metrics.retweet_count,
-              req.query.theme.toLowerCase(),
-              req.query.response.toLowerCase(),
-              req.query.border.toLowerCase(),
-              req.query.time.toLowerCase(),
-              req.query.icon.toLowerCase()
+              req.query.theme,
+              req.query.response,
+              req.query.border,
+              req.query.time,
+              req.query.icon
             )
           );
         });
