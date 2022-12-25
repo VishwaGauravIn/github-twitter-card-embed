@@ -1,9 +1,9 @@
 import axios from "axios";
 import Head from "next/head";
 import { useEffect } from "react";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
-  
   return (
     <>
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <body className="">
-        
+        <NavBar />
       </body>
     </>
   );
