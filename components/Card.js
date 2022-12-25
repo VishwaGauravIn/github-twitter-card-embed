@@ -40,20 +40,20 @@ export function Card(
   }
 
   // setting initial height to 108 px
-  let height = 98;
+  let height = 93.6;
   if (text !== undefined) {
     let tl = text.length;
     // if only one line exist then we add 36px to height
     if (tl < 60) {
-      height = 109 + 28;
+      height += 36;
     }
-    // if multiple line then we divide the charcount/length to get the number of lines used to calculate the height
+    // if multiple line then we first add 36px and then divide the charcount/length to get the number of lines used to calculate the height
     if (tl > 59) {
-      height = 109 + (tl / 60).toFixed(1) * 28;
+      height += 36 + (tl / 60).toFixed(1) * 24;
     }
     // if date and Time is visible
     if (time === "true") {
-      height += 38;
+      height += 38.4;
     }
     // if response is visible
     if (response === "true") {
