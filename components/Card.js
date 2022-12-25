@@ -39,8 +39,8 @@ export function Card(
     icon = "default";
   }
 
-  // setting initial height to 108 px
-  let height = 93.6;
+  // setting initial height to 92 px
+  let height = 92;
   if (text !== undefined) {
     let tl = text.length;
     // if only one line exist then we add 36px to height
@@ -61,7 +61,7 @@ export function Card(
     }
     // if response is visible
     if (border === "true") {
-      height += 2;
+      height += 1;
     }
   }
   return `
