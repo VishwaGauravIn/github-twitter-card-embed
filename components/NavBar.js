@@ -4,8 +4,8 @@ import React from "react";
 export default function NavBar() {
   return (
     <div className="flex p-4 justify-between items-center">
-      <div className="flex items-center font-bold text-3xl sm:text-4xl md:text-5xl gap-2 text-[#53ADEE]">
-        <img src="/logo.png" className="w-7 sm:w-8 md:w-12" />{" "}
+      <div className="flex items-center font-bold text-3xl sm:text-4xl md:text-5xl gap-2 text-cyan-200">
+        <img src="/logo.png" className="w-7 sm:w-8 md:w-12 brightness-200" />{" "}
         <span className="hidden sm:block">GTCE</span>
       </div>
       <div className="flex gap-4 md:gap-6">
