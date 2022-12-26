@@ -38,5 +38,5 @@ theme - string - theme name - jolly
 response - boolean - true/false
 border - boolean - true/false
 time - boolean - true/false
-icons - string - icon name
+icon - string - icon name
 */

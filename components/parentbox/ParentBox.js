@@ -4,6 +4,11 @@ import { CodeBracketIcon } from "@heroicons/react/24/outline";
 
 export default function ParentBox() {
   const [darkMode, setDarkMode] = useState(true);
+  const [theme, setTheme] = useState("dracula");
+  const [response, setResponse] = useState(true);
+  const [border, setBorder] = useState(true);
+  const [time, setTime] = useState(true);
+  const [icon, setIcon] = useState("default");
   return (
     <div className="flex flex-col items-center">
       <span className="mt-28 text-cyan-200 font-semibold text-3xl">
@@ -14,7 +19,11 @@ export default function ParentBox() {
           darkMode ? `bg-[#010409]` : `bg-white`
         } `}
       >
-        <img src="/api/test" alt="" className="p-8" />
+        <img
+          src={`/api/test?theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon}`}
+          alt=""
+          className="p-8"
+        />
         <button
           className="bg-cyan-200 absolute right-0 -top-8 p-1 flex text-xs items-center gap-1 pl-2 pr-1 rounded-t font-semibold group"
           onClick={() => setDarkMode(!darkMode)}
