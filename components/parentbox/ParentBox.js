@@ -31,7 +31,7 @@ export default function ParentBox() {
         onSubmit={(e) => e.preventDefault()}
         className="mt-10 flex flex-col items-center gap-6"
       >
-        <div className="flex bg-blue-200 text-blue-900 p-2 gap-2 rounded">
+        <div className="flex bg-cyan-200 text-cyan-900 p-2 gap-2 rounded focus-within:ring ring-cyan-200/20 focus-within:bg-[#72f1ff]">
           <AtSymbolIcon className="w-6" />
           <input
             type="text"
@@ -39,7 +39,7 @@ export default function ParentBox() {
             id=""
             required
             placeholder="Twitter Username"
-            className="bg-transparent outline-none"
+            className="bg-transparent outline-none placeholder-cyan-900/80"
           />
         </div>
         <button
