@@ -58,6 +58,42 @@ export default function ParentBox() {
           <CodeBracketIcon className="w-6 stroke-2" /> Copy Code
         </button>
       </form>
+      <div className="my-10 text-white">
+        <p className="">Customisations</p>
+        <span className="flex justify-center items-center gap-2">
+          Response:{" "}
+          <input
+            type="checkbox"
+            name=""
+            id=""
+            checked={response}
+            className="w-4 h-4 accent-cyan-200"
+            onChange={() => setResponse(!response)}
+          />
+        </span>
+        <span className="flex justify-center items-center gap-2">
+          Time:{" "}
+          <input
+            type="checkbox"
+            name=""
+            id=""
+            checked={time}
+            className="w-4 h-4 accent-cyan-200"
+            onChange={() => setTime(!time)}
+          />
+        </span>
+        <span className="flex justify-center items-center gap-2">
+          Border:{" "}
+          <input
+            type="checkbox"
+            name=""
+            id=""
+            checked={border}
+            className="w-4 h-4 accent-cyan-200"
+            onChange={() => setBorder(!border)}
+          />
+        </span>
+      </div>
     </div>
   );
 }
