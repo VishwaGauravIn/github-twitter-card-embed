@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { AtSymbolIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { CodeBracketIcon } from "@heroicons/react/24/outline";
 import themes from "../../themes/themes";
@@ -11,6 +11,15 @@ export default function ParentBox() {
   const [border, setBorder] = useState(true);
   const [time, setTime] = useState(true);
   const [icon, setIcon] = useState("default");
+  const username = useRef("");
+  function onCopy() {
+    // TODO: add validation to check if the username is valid or not?
+    navigator.clipboard.writeText(
+      `[![](https://gtce.itsvg.in/api?username=${username.current?.value}&theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon})](https://gtce.itsvg.in/)`
+    ).then(()=>{
+        alert("Copied!")
+    });
+  }
   return (
     <div className="flex flex-col items-center">
       <span className="mt-28 text-cyan-200 font-semibold text-3xl">
@@ -48,6 +57,7 @@ export default function ParentBox() {
             type="text"
             name=""
             id=""
+            ref={username}
             required
             placeholder="Twitter Username"
             className="bg-transparent outline-none placeholder-cyan-900/80"
@@ -56,6 +66,7 @@ export default function ParentBox() {
         <button
           type="submit"
           className="bg-green-200 text-green-900 px-6 py-3 font-semibold flex gap-2 rounded-full ring ring-green-200/30 active:scale-95 transition-all ease-in-out"
+          onClick={onCopy}
         >
           <CodeBracketIcon className="w-6 stroke-2" /> Copy Code
         </button>
