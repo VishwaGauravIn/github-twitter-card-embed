@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
+import { AtSymbolIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
+import { CodeBracketIcon } from "@heroicons/react/24/outline";
 
 export default function ParentBox() {
   const [darkMode, setDarkMode] = useState(true);
@@ -26,6 +27,28 @@ export default function ParentBox() {
           )}
         </button>
       </div>
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className="mt-10 flex flex-col items-center gap-6"
+      >
+        <div className="flex bg-blue-200 text-blue-900 p-2 gap-2 rounded">
+          <AtSymbolIcon className="w-6" />
+          <input
+            type="text"
+            name=""
+            id=""
+            required
+            placeholder="Twitter Username"
+            className="bg-transparent outline-none"
+          />
+        </div>
+        <button
+          type="submit"
+          className="bg-green-200 text-green-900 px-6 py-3 font-semibold flex gap-2 rounded-full ring ring-green-200/30 active:scale-95 transition-all ease-in-out"
+        >
+          <CodeBracketIcon className="w-6 stroke-2" /> Copy Code
+        </button>
+      </form>
     </div>
   );
 }
