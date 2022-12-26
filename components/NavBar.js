@@ -35,7 +35,7 @@ export default function NavBar() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            className="flex gap-1 bg-cyan-200 text-cyan-900 px-2 sm:px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold ring ring-cyan-200/30 transition-all ease-in-out active:scale-95 shadow-lg hover:shadow-cyan-200/30"
+            className="flex gap-1 bg-fuchsia-200 text-fuchsia-900 px-2 sm:px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold ring ring-fuchsia-200/30 transition-all ease-in-out active:scale-95 shadow-lg hover:shadow-fuchsia-200/30"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
