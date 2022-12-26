@@ -13,7 +13,8 @@ export default function ParentBox() {
   const [time, setTime] = useState(true);
   const [icon, setIcon] = useState("default");
   const username = useRef("");
-  function onCopy() {
+  function onCopy(e) {
+    e.preventDefault();
     // TODO: add validation to check if the username is valid or not?
     navigator.clipboard
       .writeText(
@@ -60,7 +61,9 @@ export default function ParentBox() {
         </button>
       </div>
       <form
-        onSubmit={(e) => e.preventDefault()}
+        onSubmit={(e) => {
+          onCopy(e);
+        }}
         className="mt-10 flex flex-col items-center gap-6"
       >
         <div className="flex bg-cyan-200 text-cyan-900 p-2 gap-2 rounded focus-within:ring ring-cyan-200/20 focus-within:bg-[#72f1ff]">
@@ -78,7 +81,6 @@ export default function ParentBox() {
         <button
           type="submit"
           className="bg-green-200 text-green-900 px-6 py-3 font-semibold flex gap-2 rounded-full ring ring-green-200/30 active:scale-95 transition-all ease-in-out"
-          onClick={onCopy}
         >
           <CodeBracketIcon className="w-6 stroke-2" /> Copy Code
         </button>
