@@ -34,18 +34,18 @@ export default function ParentBox() {
   }
   return (
     <div className="flex flex-col items-center">
-      <span className="mt-28 text-cyan-200 font-semibold text-3xl">
+      <span className="mt-10 sm:mt-28 text-cyan-200 font-semibold text-3xl">
         PREVIEW
       </span>
       <div
-        className={`flex relative ring mt-10 rounded ring-cyan-200 transition-all ease-in-out ${
+        className={`flex relative ring mt-10 rounded ring-cyan-200 mx-2 transition-all ease-in-out ${
           darkMode ? `bg-[#010409]` : `bg-white`
         } `}
       >
         <img
           src={`/api/test?theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon}`}
           alt=""
-          className="p-8"
+          className="p-4 sm:p-8"
         />
         <button
           className="bg-cyan-200 absolute right-0 -top-8 p-1 flex text-xs items-center gap-1 pl-2 pr-1 rounded-t font-semibold group"
