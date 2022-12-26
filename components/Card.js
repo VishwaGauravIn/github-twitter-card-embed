@@ -68,10 +68,10 @@ export function Card(
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    width="550px"
+    width="533.6px"
     height="${height}px"
   >
-  <foreignObject width="550px" height="${height}px">
+  <foreignObject width="533.6px" height="${height}px">
   <div xmlns="http://www.w3.org/1999/xhtml">
   <style>
 .card {
