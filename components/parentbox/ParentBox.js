@@ -4,6 +4,7 @@ import { CodeBracketIcon } from "@heroicons/react/24/outline";
 import themes from "../../themes/themes";
 import { icons } from "../../icons";
 import { toast, ToastContainer } from "react-toastify";
+import Link from "next/link";
 
 export default function ParentBox() {
   const [darkMode, setDarkMode] = useState(true);
@@ -80,12 +81,13 @@ export default function ParentBox() {
         </div>
         <button
           type="submit"
+          title="Copy the code that can be pasted inside ReadMe.md file of your GitHub"
           className="bg-green-200 text-green-900 px-6 py-3 font-semibold flex gap-2 rounded-full ring ring-green-200/30 active:scale-95 transition-all ease-in-out"
         >
           <CodeBracketIcon className="w-6 stroke-2" /> Copy Code
         </button>
       </form>
-      <div className="my-10 text-white">
+      <div className="mt-10 text-white flex flex-col items-center">
         <p className="text-cyan-200 font-semibold text-3xl mb-6">
           Customisations
         </p>
@@ -120,7 +122,7 @@ export default function ParentBox() {
           </select>
         </div>
         <span className="flex justify-center items-center gap-2 mt-6">
-          Response:{" "}
+          Like/Retweet/Comment:{" "}
           <input
             type="checkbox"
             name=""
@@ -152,6 +154,22 @@ export default function ParentBox() {
             onChange={() => setBorder(!border)}
           />
         </span>
+        {/* TODO: add ProductHunt Link */}
+        <Link href="https://www.buymeacoffee.com/vishwagauravin" passHref>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-10"
+            title="Vote Now on ProductHunt!"
+          >
+            <img
+              src="/ProductHunt.svg"
+              alt=""
+              className="self-center ring-2 ring-[#FF6154] pointer-events-none rounded-md"
+              draggable="false"
+            />
+          </a>
+        </Link>
       </div>
       <ToastContainer
         position="top-center"
