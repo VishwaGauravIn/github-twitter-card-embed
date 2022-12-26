@@ -3,6 +3,7 @@ import { AtSymbolIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { CodeBracketIcon } from "@heroicons/react/24/outline";
 import themes from "../../themes/themes";
 import { icons } from "../../icons";
+import { toast, ToastContainer } from "react-toastify";
 
 export default function ParentBox() {
   const [darkMode, setDarkMode] = useState(true);
@@ -14,11 +15,22 @@ export default function ParentBox() {
   const username = useRef("");
   function onCopy() {
     // TODO: add validation to check if the username is valid or not?
-    navigator.clipboard.writeText(
-      `[![](https://gtce.itsvg.in/api?username=${username.current?.value}&theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon})](https://gtce.itsvg.in/)`
-    ).then(()=>{
-        alert("Copied!")
-    });
+    navigator.clipboard
+      .writeText(
+        `[![](https://gtce.itsvg.in/api?username=${username.current?.value}&theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon})](https://gtce.itsvg.in/)`
+      )
+      .then(() => {
+        toast.success("Copied Successfully!", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
+      });
   }
   return (
     <div className="flex flex-col items-center">
@@ -139,6 +151,18 @@ export default function ParentBox() {
           />
         </span>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </div>
   );
 }

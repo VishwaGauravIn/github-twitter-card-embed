@@ -14,6 +14,7 @@
     "number-prettier": "^1.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-toastify": "^9.1.1",
     "twimo-v2": "^0.4.0"
   },
   "devDependencies": {
