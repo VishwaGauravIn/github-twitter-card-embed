@@ -1,6 +1,7 @@
 import axios from "axios";
 import Head from "next/head";
 import { useEffect } from "react";
+import Bg from "../components/Bg";
 import NavBar from "../components/NavBar";
 
 export default function Home() {
@@ -12,9 +13,10 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <body className="">
+      <div className="relative z-10">
         <NavBar />
-      </body>
+      </div>
+      <Bg />
     </>
   );
 }
