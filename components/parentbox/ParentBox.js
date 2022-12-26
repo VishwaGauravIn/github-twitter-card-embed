@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { AtSymbolIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { CodeBracketIcon } from "@heroicons/react/24/outline";
+import themes from "../../themes/themes";
+import { icons } from "../../icons";
 
 export default function ParentBox() {
   const [darkMode, setDarkMode] = useState(true);
@@ -59,8 +61,40 @@ export default function ParentBox() {
         </button>
       </form>
       <div className="my-10 text-white">
-        <p className="text-cyan-200 font-semibold text-3xl">Customisations</p>
-        <span className="flex justify-center items-center gap-2">
+        <p className="text-cyan-200 font-semibold text-3xl mb-6">
+          Customisations
+        </p>
+        <div className="flex gap-2 items-center">
+          Theme:
+          <select
+            name=""
+            id=""
+            className="bg-cyan-200 text-cyan-900 p-2 rounded font-semibold outline-none focus-within:ring ring-cyan-200/30"
+            onChange={(e) => setTheme(e.currentTarget.value)}
+          >
+            {Object.keys(themes).map((theme) => (
+              <option key={theme} value={theme}>
+                {theme.replaceAll("_", " ").replaceAll("-", " ")}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="flex gap-2 items-center mt-6">
+          Icon:
+          <select
+            name=""
+            id=""
+            className="bg-cyan-200 text-cyan-900 p-2 rounded font-semibold outline-none focus-within:ring ring-cyan-200/30 w-full"
+            onChange={(e) => setIcon(e.currentTarget.value)}
+          >
+            {Object.keys(icons).map((icon) => (
+              <option key={icon} value={icon}>
+                {icon.replaceAll("_", " ").replaceAll("-", " ")}
+              </option>
+            ))}
+          </select>
+        </div>
+        <span className="flex justify-center items-center gap-2 mt-6">
           Response:{" "}
           <input
             type="checkbox"
@@ -71,7 +105,7 @@ export default function ParentBox() {
             onChange={() => setResponse(!response)}
           />
         </span>
-        <span className="flex justify-center items-center gap-2">
+        <span className="flex justify-center items-center gap-2 mt-2">
           Time:{" "}
           <input
             type="checkbox"
@@ -82,7 +116,7 @@ export default function ParentBox() {
             onChange={() => setTime(!time)}
           />
         </span>
-        <span className="flex justify-center items-center gap-2">
+        <span className="flex justify-center items-center gap-2 mt-2">
           Border:{" "}
           <input
             type="checkbox"
