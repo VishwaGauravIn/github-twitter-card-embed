@@ -59,7 +59,7 @@ export default function ParentBox() {
         </button>
       </form>
       <div className="my-10 text-white">
-        <p className="">Customisations</p>
+        <p className="text-cyan-200 font-semibold text-3xl">Customisations</p>
         <span className="flex justify-center items-center gap-2">
           Response:{" "}
           <input
