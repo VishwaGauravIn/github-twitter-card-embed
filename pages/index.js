@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useEffect } from "react";
 import Bg from "../components/Bg";
 import NavBar from "../components/NavBar";
+import ParentBox from "../components/parentbox/ParentBox";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 
       <div className="relative z-10">
         <NavBar />
+        <ParentBox />
       </div>
       <Bg />
     </>
