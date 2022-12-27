@@ -32,6 +32,26 @@ We got
 |```dracula```|![image](https://user-images.githubusercontent.com/81325730/209660567-429a1d1c-1a19-45a6-86bb-6b48f673c89a.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=dracula```
 |```prussian```|![image](https://user-images.githubusercontent.com/81325730/209660615-ed0c3f60-ed4c-4468-9f88-c7107d806225.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=prussian```
 |```monokai```|![image](https://user-images.githubusercontent.com/81325730/209660659-c0ab0702-76f2-48b2-9d5c-fc024e6968bb.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=monokai```
+|```vue```|![image](https://user-images.githubusercontent.com/81325730/209660820-f03ec6fc-3f9b-4d2b-acc5-a5d18239d30e.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=vue```
+|```vue-dark```|![image](https://user-images.githubusercontent.com/81325730/209660869-52202805-7828-4721-9205-b582230021cd.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=vue-dark```
+|```shades-of-purple```|![image](https://user-images.githubusercontent.com/81325730/209660971-5e177445-6b35-4475-8499-7c8b47498baf.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=shades-of-purple```
+|```nightowl```|![image](https://user-images.githubusercontent.com/81325730/209661002-8526d9c6-e7c0-4106-a1a8-e0a57645878e.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=nightowl```
+|```buefy```|![image](https://user-images.githubusercontent.com/81325730/209661030-9490803c-c1ba-4f4e-80ca-4159996b8e0c.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=buefy```
+|```blue-green```|![image](https://user-images.githubusercontent.com/81325730/209661064-65c1822f-d157-4ea2-a67f-b5c3b8dab61d.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=blue-green```
+|```algolia```|![image](https://user-images.githubusercontent.com/81325730/209661093-56d090b3-ef88-482c-ab15-344af3d4031f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=algolia```
+|```great-gatsby```|![image](https://user-images.githubusercontent.com/81325730/209661131-fdf29524-4549-4e66-ab74-54950d551fc5.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=great-gatsby```
+|```darcula```|![image](https://user-images.githubusercontent.com/81325730/209661207-49394b28-fffb-4c91-b1b1-d50fb4711f9e.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=darcula```
+|```bear```|![image](https://user-images.githubusercontent.com/81325730/209661230-d73d7076-a2ca-4f68-b9d8-7bd645ebc896.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=bear```
+|```solarized-dark```|![image](https://user-images.githubusercontent.com/81325730/209661273-43ae29c5-2eaf-46a0-98c2-55189f1b1d03.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=solarized-dark```
+|```solarized-light```|![image](https://user-images.githubusercontent.com/81325730/209661328-2b0b2e5a-8f7f-4b25-b0cb-6c735d851331.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=solarized-light```
+|```chartreuse-dark```|![image](https://user-images.githubusercontent.com/81325730/209661360-d8158919-6f9d-433e-818d-94e6a83a50fa.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=chartreuse-dark```
+|```nord```|![image](https://user-images.githubusercontent.com/81325730/209661429-c765704a-04b2-487f-837c-6377d705f4a4.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=nord```
+|```gotham```|![image](https://user-images.githubusercontent.com/81325730/209661458-90dff804-153c-4017-b24e-1297e8536bf5.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=gotham```
+|```material-palenight```|![image](https://user-images.githubusercontent.com/81325730/209661479-2196115d-b77a-4d4f-8665-99368a6bb7ed.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=material-palenight```
+|```graywhite```|![image](https://user-images.githubusercontent.com/81325730/209661557-140bb975-36f9-47c8-adbc-13692bf53144.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=graywhite```
+|```vision-friendly-dark```|![image](https://user-images.githubusercontent.com/81325730/209661618-4c6e644c-2582-4745-a90c-3d11408c2c39.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=vision-friendly-dark```
+|```ayu-mirage```|![image](https://user-images.githubusercontent.com/81325730/209661673-7ef919a1-4e4e-4a09-8679-5b9cf890de88.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=ayu-mirage```
+
 
 
 ## Our Social Links
