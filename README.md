@@ -8,7 +8,7 @@
 </div>
 <br/>
 
-![image](https://user-images.githubusercontent.com/81325730/209569909-974fd082-8fe1-48a3-ba1d-a7d2d888bd7d.png)
+![tweet_preview](https://user-images.githubusercontent.com/81325730/209658899-48cd4ba1-0d10-42e9-9ce5-e9b78334da7e.png)
 
 # Features
 We got 
