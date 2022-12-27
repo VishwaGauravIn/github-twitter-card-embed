@@ -68,6 +68,17 @@ We got
 |```github_dark```|![image](https://user-images.githubusercontent.com/81325730/209662523-923086c7-578a-44f4-ad5c-6b6c0cf612da.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=github_dark```
 |```discord_old_blurple```|![image](https://user-images.githubusercontent.com/81325730/209662576-e99a018d-37bd-4763-aca8-1effda72a79a.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=discord_old_blurple```
 |```aura_dark```|![image](https://user-images.githubusercontent.com/81325730/209662599-c81af9c5-5152-4971-85cd-362a96506bde.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=aura_dark```
+|```panda```|![image](https://user-images.githubusercontent.com/81325730/209662701-e8fa9003-f9f5-4442-9bd7-29d088d2f393.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=panda```
+|```noctis_minimus```|![image](https://user-images.githubusercontent.com/81325730/209662732-daa06a55-d0ef-49ca-9948-cd3059a97988.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=noctis_minimus```
+|```cobalt2```|![image](https://user-images.githubusercontent.com/81325730/209662755-57741add-f4b4-458e-bf2d-fa79b7b99ed6.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=cobalt2```
+|```swift```|![image](https://user-images.githubusercontent.com/81325730/209662783-912b1efa-d423-4b91-b20b-db866a474a10.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=swift```
+|```aura```|![image](https://user-images.githubusercontent.com/81325730/209662808-8461fadd-c1ff-40d3-8481-239a0e246252.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=aura```
+|```apprentice```|![image](https://user-images.githubusercontent.com/81325730/209662855-4b02591c-10af-4143-9101-7884d267fbc6.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=apprentice```
+|```moltack```|![image](https://user-images.githubusercontent.com/81325730/209662886-9f772dc8-7a68-4870-a5bf-08912b8a7752.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=moltack```
+|```codeSTACKr```|![image](https://user-images.githubusercontent.com/81325730/209662920-24b18549-7d0b-4630-b4b5-73de5a2c9b95.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=codeSTACKr```
+|```rose_pine```|![image](https://user-images.githubusercontent.com/81325730/209662952-d051f38d-4f65-4ec3-b1a7-4813b2bcd97f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=rose_pine```
+|```date_night```|![image](https://user-images.githubusercontent.com/81325730/209662988-ba5dd098-6d1e-47fe-b506-6829bf3d5d88.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=date_night```
+
 
 ## Our Social Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
