@@ -8,7 +8,7 @@ body {
   left: 0;
   width: 100%;
   height: 120%;
-  transform: rotate(-45deg);
+  transform: rotate(-30deg);
 }
 
 .star {
