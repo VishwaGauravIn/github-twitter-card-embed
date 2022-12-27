@@ -8,7 +8,7 @@ export default async function getStaticProps(req, res) {
     Card(
       "VishwaGauravIn",
       "Vishwa Gaurav",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, fuga.",
+      "The Best Realtime Tweet embed with 60+ awesome themes. Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else, Download your tweets as image.",
       date.toLocaleTimeString([], {
         hour: "numeric",
         minute: "numeric",

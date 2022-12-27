@@ -48,9 +48,10 @@ export function Card(
       height += 36;
     }
     // if multiple line then we first add 36px and then divide the charcount/length to get the number of lines used to calculate the height
-    if (tl > 59) {
-      height += 36 + (tl / 60).toFixed(1) * 24;
+    if (tl > 54) {
+      height += 36 + (tl / 54).toFixed(1) * 24;
     }
+
     // if date and Time is visible
     if (time === "true") {
       height += 38.4;
