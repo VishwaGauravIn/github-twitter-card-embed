@@ -101,7 +101,7 @@ We got
 |```sparkles```|![image](https://user-images.githubusercontent.com/81325730/209663982-928e3ae3-a077-485a-aa0c-d2169931bf9f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=sparkles```
 |```star```|![image](https://user-images.githubusercontent.com/81325730/209664009-0c14b88b-ccb2-44c9-9c77-93ea994b46a9.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=star```
 |```trophy```|![image](https://user-images.githubusercontent.com/81325730/209664038-2ed5fa12-43f8-4811-952c-fd3becbf137f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=trophy```
-|```user```|![image](https://user-images.githubusercontent.com/81325730/209664063-4169d8ad-d739-4215-9216-90954240170a.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=user```
+|```user```|![image](https://user-images.githubusercontent.com/81325730/209664127-0d929eee-3833-4df1-8e8a-48422255c8d4.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=user```
 
 ## Our Social Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
