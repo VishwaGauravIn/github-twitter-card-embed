@@ -11,7 +11,14 @@
 ![tweet_preview](https://user-images.githubusercontent.com/81325730/209658899-48cd4ba1-0d10-42e9-9ce5-e9b78334da7e.png)
 
 # Features
-We got 
+- 🔥 Realtime Tweet Update
+- ❤️ Shows Likes, Retweets and Replies
+- 🕒 Show Time and Date (GMT)
+- ✅ Get Verified Badge
+- 🎨 60+ themes
+- ✨ Place it anywhere - Website, GitHub or any blog.
+- ⬇️ Download Tweet as Image!
+- 😮 20+ icons
 
 ## Example
 
