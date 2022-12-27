@@ -13,6 +13,15 @@
 # Features
 We got 
 
+## Themes
+|Theme|Preview|URL|
+|-----|-------|---|
+|```default```|![image](https://user-images.githubusercontent.com/81325730/209659124-8e809304-e528-4973-a4da-6d8bc1c96f85.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=default```
+|```default repocard```|![image](https://user-images.githubusercontent.com/81325730/209659422-6445cca7-e92e-4f6e-9bf3-8fdd312a4b99.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=default_repocard```
+|```transparent```|![image](https://user-images.githubusercontent.com/81325730/209659616-006cef0e-af0b-479a-b145-5b31e2d00568.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=transparent```
+|```dark```|![image](https://user-images.githubusercontent.com/81325730/209659687-1bcaa5ed-29ab-4437-8799-d1c4777193a7.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=dark```
+|```radical```|![image](https://user-images.githubusercontent.com/81325730/209659730-09209daa-28df-4056-aa87-66354c5c8607.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=radical```
+
 ## Our Social Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=normal&logo=Twitter&logoColor=white)](https://twitter.com/VishwaGauravIn)
