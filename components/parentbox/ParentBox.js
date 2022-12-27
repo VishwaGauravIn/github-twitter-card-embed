@@ -1,10 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AtSymbolIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { CodeBracketIcon } from "@heroicons/react/24/outline";
 import themes from "../../themes/themes";
 import { icons } from "../../icons";
 import { toast, ToastContainer } from "react-toastify";
 import Link from "next/link";
+import { Card } from "../Card";
 
 export default function ParentBox() {
   const [darkMode, setDarkMode] = useState(true);
@@ -34,6 +35,38 @@ export default function ParentBox() {
         });
       });
   }
+  const [url, setUrl] = useState(
+    "/api/test?theme=dracula&response=true&border=true&time=true&icon=default"
+  );
+  const date = new Date();
+  //   Removed API dependency. why? to save function run and faster output
+  useEffect(() => {
+    let svg = Card(
+      "VishwaGauravIn",
+      "Vishwa Gaurav",
+      "The Best Realtime Tweet embed with 60+ awesome themes. Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else, Download your tweets as image.",
+      date.toLocaleTimeString([], {
+        hour: "numeric",
+        minute: "numeric",
+      }),
+      date.toLocaleDateString([], {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      }),
+      500000,
+      125100,
+      375896,
+      `${theme}`,
+      `${response}`,
+      `${border}`,
+      `${time}`,
+      `${icon}`
+    );
+    // Parsing SVG from String
+    let blob = new Blob([svg], { type: "image/svg+xml" });
+    setUrl(URL.createObjectURL(blob));
+  }, [time, response, border, theme, icon]);
   return (
     <div className="flex flex-col items-center">
       <span className="mt-10 sm:mt-28 text-cyan-200 font-semibold text-3xl">
@@ -44,11 +77,7 @@ export default function ParentBox() {
           darkMode ? `bg-[#010409]` : `bg-white`
         } `}
       >
-        <img
-          src={`/api/test?theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon}`}
-          alt=""
-          className="p-4 sm:p-8"
-        />
+        <img src={url} alt="" className="p-4 sm:p-8" />
         <button
           className="bg-cyan-200 absolute right-0 -top-8 p-1 flex text-xs items-center gap-1 pl-2 pr-1 rounded-t font-semibold group"
           onClick={() => setDarkMode(!darkMode)}
