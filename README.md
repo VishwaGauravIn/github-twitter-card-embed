@@ -13,7 +13,7 @@
 # Features
 We got 
 
-## 🎨Themes
+## 🎨 Themes
 |theme|preview|URL|
 |-----|-------|---|
 |```default```|![image](https://user-images.githubusercontent.com/81325730/209659124-8e809304-e528-4973-a4da-6d8bc1c96f85.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=default```
@@ -79,7 +79,7 @@ We got
 |```rose_pine```|![image](https://user-images.githubusercontent.com/81325730/209662952-d051f38d-4f65-4ec3-b1a7-4813b2bcd97f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=rose_pine```
 |```date_night```|![image](https://user-images.githubusercontent.com/81325730/209662988-ba5dd098-6d1e-47fe-b506-6829bf3d5d88.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=date_night```
 
-## 👤Icons
+## 👤 Icons
 |icon|preview|URL|
 |-----|-------|---|
 
