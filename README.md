@@ -51,8 +51,23 @@ We got
 |```graywhite```|![image](https://user-images.githubusercontent.com/81325730/209661557-140bb975-36f9-47c8-adbc-13692bf53144.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=graywhite```
 |```vision-friendly-dark```|![image](https://user-images.githubusercontent.com/81325730/209661618-4c6e644c-2582-4745-a90c-3d11408c2c39.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=vision-friendly-dark```
 |```ayu-mirage```|![image](https://user-images.githubusercontent.com/81325730/209661673-7ef919a1-4e4e-4a09-8679-5b9cf890de88.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=ayu-mirage```
-
-
+|```midnight-purple```|![image](https://user-images.githubusercontent.com/81325730/209661971-bcb567b3-e137-4d73-b1e5-1f363bb22fbc.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=midnight-purple```
+|```calm```|![image](https://user-images.githubusercontent.com/81325730/209662011-35a02d68-34ce-4ff1-a8a3-fa21de0d86ea.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=calm```
+|```flag-india```|![image](https://user-images.githubusercontent.com/81325730/209662059-1c9dd2e0-a388-4088-ae2d-fe44ebe19498.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=flag-india```
+|```omni```|![image](https://user-images.githubusercontent.com/81325730/209662092-684dad7c-44a3-443b-8889-0cf7b2a68366.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=omni```
+|```react```|![image](https://user-images.githubusercontent.com/81325730/209662123-b711347e-2cf0-47a3-9425-f4a27ecc74c3.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=react```
+|```jolly```|![image](https://user-images.githubusercontent.com/81325730/209662150-80792156-4ae4-49ba-8a9a-e6c8d8841d15.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=jolly```
+|```maroongold```|![image](https://user-images.githubusercontent.com/81325730/209662187-231355cd-3883-4a1a-87d0-654656779822.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=maroongold```
+|```yeblu```|![image](https://user-images.githubusercontent.com/81325730/209662216-c724e1aa-265d-46a4-bdc5-37cf3b4fa84c.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=yeblu```
+|```blueberry```|![image](https://user-images.githubusercontent.com/81325730/209662252-2e77ec8b-c188-4440-9722-00fb26b93b68.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=blueberry```
+|```slateorange```|![image](https://user-images.githubusercontent.com/81325730/209662276-39cb63b8-d431-46c6-b6b7-f7bc2410f45b.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=slateorange```
+|```kacho_ga```|![image](https://user-images.githubusercontent.com/81325730/209662301-cb2f4652-d2cc-4621-8a63-b1c43b5e69b1.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=kacho_ga```
+|```outrun```|![image](https://user-images.githubusercontent.com/81325730/209662373-3fa6d853-354d-4531-80c4-c5592c303fcc.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=outrun```
+|```ocean_dark```|![image](https://user-images.githubusercontent.com/81325730/209662416-805db470-4de1-420f-807f-3a1387ccae91.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=ocean_dark```
+|```city_light```|![image](https://user-images.githubusercontent.com/81325730/209662495-38d51679-30d0-47a3-a9a0-23190620ae85.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=city_light```
+|```github_dark```|![image](https://user-images.githubusercontent.com/81325730/209662523-923086c7-578a-44f4-ad5c-6b6c0cf612da.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=github_dark```
+|```discord_old_blurple```|![image](https://user-images.githubusercontent.com/81325730/209662576-e99a018d-37bd-4763-aca8-1effda72a79a.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=discord_old_blurple```
+|```aura_dark```|![image](https://user-images.githubusercontent.com/81325730/209662599-c81af9c5-5152-4971-85cd-362a96506bde.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=aura_dark```
 
 ## Our Social Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
