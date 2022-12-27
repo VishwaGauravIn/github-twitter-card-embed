@@ -82,7 +82,26 @@ We got
 ## 👤 Icons
 |icon|preview|URL|
 |-----|-------|---|
-
+|```default```|![image](https://user-images.githubusercontent.com/81325730/209663447-441dd8d5-e49b-4208-b4ea-3a2844deb01d.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=default```
+|```thunder```|![image](https://user-images.githubusercontent.com/81325730/209663523-9ac7f957-27e6-476b-98c2-c9f813e63fad.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=thunder```
+|```sun```|![image](https://user-images.githubusercontent.com/81325730/209663550-cf2f5403-e77b-4c5e-ad82-3f397acd3930.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=sun```
+|```beaker```|![image](https://user-images.githubusercontent.com/81325730/209663582-55f919eb-c2a3-4a21-83ab-49c3636fe23d.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=beaker```
+|```bookmark```|![image](https://user-images.githubusercontent.com/81325730/209663629-46e87c45-0ccc-4cb5-b40a-fce5b86173bc.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=bookmark```
+|```bug```|![image](https://user-images.githubusercontent.com/81325730/209663664-9fb930cd-f911-41f2-8b7e-fd8a67bed2bb.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=bug```
+|```cake```|![image](https://user-images.githubusercontent.com/81325730/209663697-07d2f604-a2f7-4fe5-bc1a-a79bd97c4b2e.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=cake```
+|```badge```|![image](https://user-images.githubusercontent.com/81325730/209663718-bf61e2e8-038f-49aa-a311-ce34479c5dbe.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=badge```
+|```code```|![image](https://user-images.githubusercontent.com/81325730/209663755-8929d2e6-7f4d-40fe-b945-5dbf768d5294.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=code```
+|```smile```|![image](https://user-images.githubusercontent.com/81325730/209663799-87554df0-d278-44cf-a3f7-9f0c9e76e595.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=smile```
+|```fire```|![image](https://user-images.githubusercontent.com/81325730/209663819-1ae12f2d-46b4-47ea-8dc8-029f3f3676f1.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=fire```
+|```hashtag```|![image](https://user-images.githubusercontent.com/81325730/209663849-18e6b907-e3aa-4d59-9560-1666ec38ce4c.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=hashtag```
+|```heart```|![image](https://user-images.githubusercontent.com/81325730/209663879-0cc9ed51-7692-4b98-94a2-90869ba762f5.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=heart```
+|```lock```|![image](https://user-images.githubusercontent.com/81325730/209663907-4bcd4f07-aa66-49f1-a78f-af607210a687.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=lock```
+|```moon```|![image](https://user-images.githubusercontent.com/81325730/209663937-f655d348-b1e5-42e8-b4da-6547b19bd399.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=moon```
+|```radio```|![image](https://user-images.githubusercontent.com/81325730/209663957-7e86917d-ac1a-4229-8b1e-89033e011cec.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=radio```
+|```sparkles```|![image](https://user-images.githubusercontent.com/81325730/209663982-928e3ae3-a077-485a-aa0c-d2169931bf9f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=sparkles```
+|```star```|![image](https://user-images.githubusercontent.com/81325730/209664009-0c14b88b-ccb2-44c9-9c77-93ea994b46a9.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=star```
+|```trophy```|![image](https://user-images.githubusercontent.com/81325730/209664038-2ed5fa12-43f8-4811-952c-fd3becbf137f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=trophy```
+|```user```|![image](https://user-images.githubusercontent.com/81325730/209664063-4169d8ad-d739-4215-9216-90954240170a.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=user```
 
 ## Our Social Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
