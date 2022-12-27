@@ -103,6 +103,25 @@ We got
 |```trophy```|![image](https://user-images.githubusercontent.com/81325730/209664038-2ed5fa12-43f8-4811-952c-fd3becbf137f.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=trophy```
 |```user```|![image](https://user-images.githubusercontent.com/81325730/209664127-0d929eee-3833-4df1-8e8a-48422255c8d4.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?icon=user```
 
+## ❤️ Response
+|response|preview|URL|
+|-----|-------|---|
+|```true```|![image](https://user-images.githubusercontent.com/81325730/209664673-5c0eed92-a9f5-4035-ac07-15865293a8ab.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?response=true```
+|```false```|![image](https://user-images.githubusercontent.com/81325730/209664688-d03ca057-03c9-46ce-afb5-7e5db3ae87d6.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?response=false```
+
+## 🕒 Time
+|time|preview|URL|
+|-----|-------|---|
+|```true```|![image](https://user-images.githubusercontent.com/81325730/209664763-0f06d55c-5254-4392-a2df-f1704ce20932.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?time=true```
+|```false```|![image](https://user-images.githubusercontent.com/81325730/209664780-bb42ccaf-51bd-4d0d-a649-19696925d447.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?time=false```
+
+## 🛂 Border
+|border|preview|URL|
+|-----|-------|---|
+|```true```|![image](https://user-images.githubusercontent.com/81325730/209664948-2b106e63-c24f-48db-866f-d5039df7bf51.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?border=true```
+|```false```|![image](https://user-images.githubusercontent.com/81325730/209664967-4f1ea047-fc06-4520-ab7e-cf6343b564d0.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?border=false```
+
+
 ## Our Social Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=normal&logo=Twitter&logoColor=white)](https://twitter.com/VishwaGauravIn)
