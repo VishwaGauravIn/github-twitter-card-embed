@@ -13,6 +13,16 @@
 # Features
 We got 
 
+## Example
+
+**Basic Use:**
+
+```https://gtce.itsvg.in/api?username=YOUR_USERNAME```
+
+**With all parameters:**
+
+```https://gtce.itsvg.in/api?username=YOUR_USERNAME&theme=onedark&icon=hashtag&time=true&response=true&border=true```
+
 ## 🎨 Themes
 |theme|preview|URL|
 |-----|-------|---|
