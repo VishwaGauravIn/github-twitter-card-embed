@@ -14,7 +14,7 @@
 We got 
 
 ## Themes
-|Theme|Preview|URL|
+|theme|preview|URL|
 |-----|-------|---|
 |```default```|![image](https://user-images.githubusercontent.com/81325730/209659124-8e809304-e528-4973-a4da-6d8bc1c96f85.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=default```
 |```default_repocard```|![image](https://user-images.githubusercontent.com/81325730/209659422-6445cca7-e92e-4f6e-9bf3-8fdd312a4b99.png)|```https://gtce.itsvg.in/api?username=YOUR_USERNAME?theme=default_repocard```
