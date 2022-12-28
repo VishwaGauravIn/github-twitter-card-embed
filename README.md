@@ -11,7 +11,36 @@
 ![tweet_preview](https://user-images.githubusercontent.com/81325730/209658899-48cd4ba1-0d10-42e9-9ce5-e9b78334da7e.png)
 
 # Features
-We got 
+- 🔥 Realtime Tweet Update
+- ❤️ Shows Likes, Retweets and Replies
+- 🕒 Show Time and Date (GMT)
+- ✅ Get Verified Badge
+- 🎨 60+ themes
+- ✨ Place it anywhere - Website, GitHub or any blog.
+- ⬇️ Download Tweet as Image!
+- 😮 20+ icons
+
+## >>[Create Using Website!](https://gtce.itsvg.in/)<<
+
+## Example
+
+**Basic Use:**
+
+```https://gtce.itsvg.in/api?username=YOUR_USERNAME```
+
+**With all parameters:**
+
+```https://gtce.itsvg.in/api?username=YOUR_USERNAME&theme=onedark&icon=hashtag&time=true&response=true&border=true```
+
+## ❓ Parameters
+|parameter|required|default value|value|
+|-----|-------|---|---|
+|username|true|```null```|```YOUR_TWITTER_USERNAME```|
+|theme|false|```dracula```| [any Theme from this list](https://github.com/VishwaGauravIn/github-twitter-card-embed/blob/master/README.md#-themes)|
+|icon|false|```default```| [any Icon from this list](https://github.com/VishwaGauravIn/github-twitter-card-embed/blob/master/README.md#-icons)|
+|time|false|```true```| ```true``` or ```false```|
+|response|false|```true```| ```true``` or ```false```|
+|border|false|```true```| ```true``` or ```false```|
 
 ## 🎨 Themes
 |theme|preview|URL|
