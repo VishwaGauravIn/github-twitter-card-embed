@@ -125,6 +125,7 @@ export default function ParentBox() {
           <select
             name=""
             id=""
+            defaultValue={theme}
             className="bg-cyan-200 text-cyan-900 p-2 rounded font-semibold outline-none focus-within:ring ring-cyan-200/30"
             onChange={(e) => setTheme(e.currentTarget.value)}
           >
@@ -140,6 +141,7 @@ export default function ParentBox() {
           <select
             name=""
             id=""
+            defaultValue={icon}
             className="bg-cyan-200 text-cyan-900 p-2 rounded font-semibold outline-none focus-within:ring ring-cyan-200/30 w-full"
             onChange={(e) => setIcon(e.currentTarget.value)}
           >
