@@ -33,6 +33,21 @@ export default function ParentBox() {
           progress: undefined,
           theme: "colored",
         });
+        setTimeout(() => {
+          toast.info(
+            "Now you can Paste it inside your GitHub ReadMe or any Website.",
+            {
+              position: "top-center",
+              autoClose: 7000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+            }
+          );
+        }, 1000);
       });
   }
   const [url, setUrl] = useState(
