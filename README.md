@@ -24,13 +24,16 @@
 
 ## Example
 
+Copy-paste this into your markdown content, and that is it. Simple!
+Change the ```YOUR_USERNAME``` to your Twitter username.
+
 **Basic Use:**
 
-```https://gtce.itsvg.in/api?username=YOUR_USERNAME```
+```[![GTCE Realtime Tweet](https://gtce.itsvg.in/api?username=YOUR_USERNAME)](https://gtce.itsvg.in/)```
 
 **With all parameters:**
 
-```https://gtce.itsvg.in/api?username=YOUR_USERNAME&theme=onedark&icon=hashtag&time=true&response=true&border=true```
+```[![GTCE Realtime Tweet](https://gtce.itsvg.in/api?username=YOUR_USERNAME&theme=onedark&icon=hashtag&time=true&response=true&border=true)](https://gtce.itsvg.in/)```
 
 ## ❓ Parameters
 |parameter|required|default value|value|
