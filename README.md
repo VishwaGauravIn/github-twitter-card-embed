@@ -29,11 +29,15 @@ Change the ```YOUR_USERNAME``` to your Twitter username.
 
 **Basic Use:**
 
-```[![GTCE Realtime Tweet](https://gtce.itsvg.in/api?username=YOUR_USERNAME)](https://gtce.itsvg.in/)```
+```html
+<a href="https://gtce.itsvg.in/"><img src="https://gtce.itsvg.in/api?username=YOUR_USERNAME"/></a>
+```
 
 **With all parameters:**
 
-```[![GTCE Realtime Tweet](https://gtce.itsvg.in/api?username=YOUR_USERNAME&theme=onedark&icon=hashtag&time=true&response=true&border=true)](https://gtce.itsvg.in/)```
+```html
+<a href="https://gtce.itsvg.in/"><img src="https://gtce.itsvg.in/api?username=YOUR_USERNAME&theme=dracula&icon=hashtag&time=true&response=true&border=true"/></a>
+```
 
 ## ❓ Parameters
 |parameter|required|default value|value|
