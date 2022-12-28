@@ -62,7 +62,7 @@ export function Card(
     }
     // if response is visible
     if (border === "true") {
-      height += 1;
+      height += 1.5;
     }
   }
   return `
