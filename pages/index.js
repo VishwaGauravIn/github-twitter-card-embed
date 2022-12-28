@@ -1,5 +1,6 @@
 import axios from "axios";
 import Head from "next/head";
+import Script from "next/script";
 import { useEffect } from "react";
 import Bg from "../components/Bg";
 import Footer from "../components/Footer";
@@ -41,7 +42,23 @@ export default function Home() {
         />
         <meta property="twitter:image" content="https://gtce.itsvg.in/og.png" />
       </Head>
-
+      {/* Google Analytics */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-V17V3PKMTH"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-V17V3PKMTH', { page_path: window.location.pathname });
+            `,
+        }}
+      />
       <div className="relative z-10">
         <NavBar />
         <ParentBox />
