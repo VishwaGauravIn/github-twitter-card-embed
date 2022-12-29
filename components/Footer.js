@@ -1,5 +1,5 @@
 import React from "react";
-import { GITHUB_SVG, LINKEDIN_SVG, TWITTER_SVG } from "./SVG";
+import { GITHUB_SVG, INSTAGRAM_SVG, LINKEDIN_SVG, TWITTER_SVG } from "./SVG";
 
 export default function Footer() {
   return (
