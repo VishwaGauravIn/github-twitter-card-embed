@@ -41,6 +41,12 @@ export default function Home() {
           content="The Best Realtime Tweet embed with 60+ awesome themes. Get a Verified badge, Showcase your Tweet on Website, GitHub ReadMe or anywhere else, Download your tweet."
         />
         <meta property="twitter:image" content="https://gtce.itsvg.in/og.png" />
+        {/* Google Ads */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7377463303850503"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
       {/* Google Analytics */}
       <Script
