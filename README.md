@@ -24,8 +24,8 @@
 
 ## Example
 
-Copy-paste this into your markdown content, and that is it. Simple!
-Change the ```YOUR_USERNAME``` to your Twitter username.
+Copy-paste this into your GitHub ReadMe or Website Code, and that is it.  
+Simple! Change ```YOUR_USERNAME``` to your Twitter username.
 
 **Basic Use:**
 
