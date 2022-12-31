@@ -20,7 +20,7 @@ export default function ParentBox() {
     // TODO: add validation to check if the username is valid or not?
     navigator.clipboard
       .writeText(
-        `<a href="https://gtce.itsvg.in/"><img src="https://gtce.itsvg.in/api?username=${username.current.value}&theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon}"/></a>`
+        `<a href="https://github.com/VishwaGauravIn/github-twitter-card-embed"><img src="https://gtce.itsvg.in/api?username=${username.current.value}&theme=${theme}&response=${response}&border=${border}&time=${time}&icon=${icon}"/></a>`
       )
       .then(() => {
         toast.success("Copied Successfully!", {
