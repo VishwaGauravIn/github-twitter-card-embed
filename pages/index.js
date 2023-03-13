@@ -42,11 +42,11 @@ export default function Home() {
         />
         <meta property="twitter:image" content="https://gtce.itsvg.in/og.png" />
         {/* Google Ads */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7377463303850503"
-          crossOrigin="anonymous"
-        ></script>
+//         <script
+//           async
+//           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7377463303850503"
+//           crossOrigin="anonymous"
+//         ></script>
       </Head>
       {/* Google Analytics */}
       <Script
