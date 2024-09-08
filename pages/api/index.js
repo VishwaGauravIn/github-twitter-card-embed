@@ -62,8 +62,6 @@ async function getFirstTimelineItem(username) {
     const tweetDate = timelineItem.find(".tweet-date a").attr("title");
     const tweetBody = timelineItem.find(".tweet-content").text().trim();
 
-    console.log(timelineItem.find(".tweet-stats a").eq(0).text());
-
     // Extract tweet stats
     const tweetStats = {
       comment: timelineItem.find(".tweet-stats a").eq(0).text().trim(),
