@@ -1,5 +1,4 @@
 export function convertToUnicode(str) {
-  console.log(str)
   // Trim excess spaces and new lines
   const cleanedStr = str.replace(/\s+/g, " ").trim();
 
@@ -25,7 +24,7 @@ export function convertToUnicode(str) {
     "¤": "&curren;",
     "‰": "&permil;",
     "∞": "&infin;",
-    "µ": "&micro;",
+    µ: "&micro;",
     "¬": "&not;",
     "±": "&plusmn;",
     "°": "&deg;",
@@ -36,31 +35,31 @@ export function convertToUnicode(str) {
     "¾": "&frac34;",
     "¿": "&iquest;",
     "¡": "&iexcl;",
-    "Ø": "&Oslash;",
-    "Æ": "&AElig;",
-    "æ": "&aelig;",
-    "ø": "&oslash;",
-    "ß": "&szlig;",
-    "Å": "&Aring;",
-    "å": "&aring;",
-    "Ö": "&Ouml;",
-    "ö": "&ouml;",
-    "Ü": "&Uuml;",
-    "ü": "&uuml;",
-    "Ñ": "&Ntilde;",
-    "ñ": "&ntilde;",
-    "Á": "&Aacute;",
-    "á": "&aacute;",
-    "É": "&Eacute;",
-    "é": "&eacute;",
-    "Í": "&Iacute;",
-    "í": "&iacute;",
-    "Ó": "&Oacute;",
-    "ó": "&oacute;",
-    "Ú": "&Uacute;",
-    "ú": "&uacute;",
-    "Ç": "&Ccedil;",
-    "ç": "&ccedil;",
+    Ø: "&Oslash;",
+    Æ: "&AElig;",
+    æ: "&aelig;",
+    ø: "&oslash;",
+    ß: "&szlig;",
+    Å: "&Aring;",
+    å: "&aring;",
+    Ö: "&Ouml;",
+    ö: "&ouml;",
+    Ü: "&Uuml;",
+    ü: "&uuml;",
+    Ñ: "&Ntilde;",
+    ñ: "&ntilde;",
+    Á: "&Aacute;",
+    á: "&aacute;",
+    É: "&Eacute;",
+    é: "&eacute;",
+    Í: "&Iacute;",
+    í: "&iacute;",
+    Ó: "&Oacute;",
+    ó: "&oacute;",
+    Ú: "&Uacute;",
+    ú: "&uacute;",
+    Ç: "&Ccedil;",
+    ç: "&ccedil;",
   };
 
   return [...cleanedStr]
@@ -78,3 +77,23 @@ export function convertToUnicode(str) {
     })
     .join("");
 }
+
+export const parseDateString = (dateString) => {
+  // Remove the " · " separator and split the string into date and time parts
+  const [datePart, timePart] = dateString.split(" · ");
+
+  // Parse the date part
+  const [month, day, year] = datePart.split(" ");
+  const parsedDate = new Date(`${month} ${day}, ${year}`);
+
+  // Parse the time part
+  const timeMatch = timePart.match(/(\d{1,2}):(\d{2}) (AM|PM) UTC/);
+  if (timeMatch) {
+    const [, hour, minute, period] = timeMatch;
+    const hours =
+      period === "PM" ? parseInt(hour, 10) + 12 : parseInt(hour, 10);
+    parsedDate.setHours(hours, minute);
+  }
+
+  return parsedDate;
+};
