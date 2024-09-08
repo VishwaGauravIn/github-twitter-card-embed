@@ -10,6 +10,7 @@
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "axios": "^0.25.0",
+    "cheerio": "^1.0.0",
     "next": "12.0.8",
     "number-prettier": "^1.0.5",
     "react": "17.0.2",
